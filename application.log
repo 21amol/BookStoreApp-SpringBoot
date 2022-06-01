@@ -1,0 +1,14 @@
+2022-2022-05 22:17 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10456 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-05 22:17 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-05 22:17 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:634] No active profile set, falling back to 1 default profile: "default"
+2022-2022-05 22:17 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-05 22:17 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-05 22:17 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.689 seconds (JVM running for 7.258)
+2022-2022-05 22:17 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in null Environment
+2022-2022-05 22:18 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10772 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-05 22:18 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-05 22:18 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-05 22:18 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-05 22:18 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-05 22:18 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.225 seconds (JVM running for 6.39)
+2022-2022-05 22:18 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in null Environment

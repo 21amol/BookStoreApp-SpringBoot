@@ -1,0 +1,275 @@
+2022-2022-06 12:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 1736 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 12:19 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 12:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 12:20 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 12:20 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 12:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.081 seconds (JVM running for 8.044)
+2022-2022-06 12:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 12:45 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 6936 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 12:45 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 12:45 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 12:46 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 12:46 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 12:46 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.762 seconds (JVM running for 8.478)
+2022-2022-06 12:46 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 14:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3012 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 14:30 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 14:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 14:31 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 14:31 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 14:31 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.891 seconds (JVM running for 7.395)
+2022-2022-06 14:31 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 14:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 4464 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 14:33 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 14:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 14:33 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 14:33 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 14:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.719 seconds (JVM running for 7.444)
+2022-2022-06 14:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 14:33 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookException: Book Id not Found!!!] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookException: Book Id not Found!!!
+	at com.bridgelabz.bookstoreappspringboot.service.BookService.lambda$getBookById$0(BookService.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.bookstoreappspringboot.service.BookService.getBookById(BookService.java:32)
+	at com.bridgelabz.bookstoreappspringboot.controller.BookController.getBookById(BookController.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 14:33 [ERROR][http-nio-8080-exec-4][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.UserRegistrationException: User Id not Found!!!] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.UserRegistrationException: User Id not Found!!!
+	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.lambda$getUserDataById$0(UserRegistrationService.java:33)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getUserDataById(UserRegistrationService.java:33)
+	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getUserDataById(UserRegistrationController.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 14:34 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookException: Book Id not Found!!!] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookException: Book Id not Found!!!
+	at com.bridgelabz.bookstoreappspringboot.service.BookService.lambda$getBookById$0(BookService.java:32)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.bookstoreappspringboot.service.BookService.getBookById(BookService.java:32)
+	at com.bridgelabz.bookstoreappspringboot.controller.BookController.getBookById(BookController.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 14:40 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 8068 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 14:40 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 14:40 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 14:40 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 14:40 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 14:40 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.256 seconds (JVM running for 7.832)
+2022-2022-06 14:40 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 14:48 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3464 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 14:48 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 14:48 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 14:48 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 14:48 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 14:48 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.604 seconds (JVM running for 7.008)
+2022-2022-06 14:48 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 15:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 6000 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 15:06 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 15:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 15:06 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 15:06 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 15:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.52 seconds (JVM running for 6.901)
+2022-2022-06 15:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 15:08 [WARN][http-nio-8080-exec-1][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-2022-06 15:15 [WARN][http-nio-8080-exec-5][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-2022-06 15:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10776 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 15:27 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 15:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 15:27 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 15:27 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 15:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.798 seconds (JVM running for 9.765)
+2022-2022-06 15:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 15:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 4568 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 15:30 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 15:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 15:30 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 15:30 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 15:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.28 seconds (JVM running for 7.659)
+2022-2022-06 15:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 16:43 [WARN][HikariPool-1 housekeeper][c.z.h.p.HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m29s109ms108µs).
+2022-2022-06 16:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10360 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 16:52 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 16:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 16:52 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 16:52 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 16:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.043 seconds (JVM running for 8.692)
+2022-2022-06 16:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 17:50 [WARN][HikariPool-1 housekeeper][c.z.h.p.HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m6s99ms785µs200ns).
+2022-2022-06 17:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 9444 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 17:56 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 17:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 17:56 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 17:56 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 17:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 5.977 seconds (JVM running for 7.939)
+2022-2022-06 17:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 18:13 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 7820 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 18:13 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 18:13 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 18:13 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 18:13 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 18:13 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.823 seconds (JVM running for 8.32)
+2022-2022-06 18:13 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 18:27 [WARN][http-nio-8080-exec-2][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.bookstoreappspringboot.dto.ResponseDTO> com.bridgelabz.bookstoreappspringboot.controller.BookController.insertBook(com.bridgelabz.bookstoreappspringboot.dto.BookDTO): [Field error in object 'bookDTO' on field 'price': rejected value [1]; codes [Min.bookDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.price,price]; arguments []; default message [price],100]; default message [Book Price should be more than Rs 100]] ]
+2022-2022-06 18:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 5796 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 18:30 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 18:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 18:30 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 18:30 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 18:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.343 seconds (JVM running for 8.803)
+2022-2022-06 18:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 18:30 [WARN][http-nio-8080-exec-2][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.bookstoreappspringboot.dto.ResponseDTO> com.bridgelabz.bookstoreappspringboot.controller.BookController.insertBook(com.bridgelabz.bookstoreappspringboot.dto.BookDTO): [Field error in object 'bookDTO' on field 'price': rejected value [1]; codes [Min.bookDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.price,price]; arguments []; default message [price],100]; default message [Book Price should be more than Rs 100]] ]
+2022-2022-06 18:30 [WARN][http-nio-8080-exec-4][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.bookstoreappspringboot.dto.ResponseDTO> com.bridgelabz.bookstoreappspringboot.controller.BookController.insertBook(com.bridgelabz.bookstoreappspringboot.dto.BookDTO): [Field error in object 'bookDTO' on field 'price': rejected value [1]; codes [Min.bookDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.price,price]; arguments []; default message [price],100]; default message [Book Price should be more than Rs 100]] ]
+2022-2022-06 18:31 [WARN][http-nio-8080-exec-7][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.bookstoreappspringboot.dto.ResponseDTO> com.bridgelabz.bookstoreappspringboot.controller.BookController.insertBook(com.bridgelabz.bookstoreappspringboot.dto.BookDTO): [Field error in object 'bookDTO' on field 'price': rejected value [1]; codes [Min.bookDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.price,price]; arguments []; default message [price],100]; default message [Book Price should be more than Rs 100]] ]
+2022-2022-06 18:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3104 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 18:33 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 18:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 18:33 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 18:33 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 18:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.336 seconds (JVM running for 8.029)
+2022-2022-06 18:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 18:33 [WARN][http-nio-8080-exec-2][o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.bookstoreappspringboot.dto.ResponseDTO> com.bridgelabz.bookstoreappspringboot.controller.BookController.insertBook(com.bridgelabz.bookstoreappspringboot.dto.BookDTO) with 2 errors: [Field error in object 'bookDTO' on field 'price': rejected value [1]; codes [Min.bookDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.price,price]; arguments []; default message [price],100]; default message [Book Price should be more than Rs 100]] [Field error in object 'bookDTO' on field 'quantity': rejected value [0]; codes [Min.bookDTO.quantity,Min.quantity,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookDTO.quantity,quantity]; arguments []; default message [quantity],1]; default message [Quantity should not be less than 1 nos.]] ]
