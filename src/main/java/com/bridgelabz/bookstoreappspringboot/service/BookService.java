@@ -1,7 +1,7 @@
 package com.bridgelabz.bookstoreappspringboot.service;
 
 import com.bridgelabz.bookstoreappspringboot.dto.BookDTO;
-import com.bridgelabz.bookstoreappspringboot.exception.BookException;
+import com.bridgelabz.bookstoreappspringboot.exception.BookStoreException;
 import com.bridgelabz.bookstoreappspringboot.model.BookData;
 import com.bridgelabz.bookstoreappspringboot.repository.BookRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,13 +25,13 @@ public class BookService {
     return bookRepo.findAll();
   }
 
-  public BookData getBookById(int id) {
-    return bookRepo.findById(id)
-            .orElseThrow(() -> new BookException("Book Id not Found!!!"));
+  public BookData getBookById(int cartId) {
+    return bookRepo.findById(cartId)
+            .orElseThrow(() -> new BookStoreException("Book Id not Found!!!"));
   }
 
-  public void deleteBookData(int id) {
-    BookData bookData = this.getBookById(id);
+  public void deleteBookData(int cartId) {
+    BookData bookData = this.getBookById(cartId);
     bookRepo.delete(bookData);
   }
 

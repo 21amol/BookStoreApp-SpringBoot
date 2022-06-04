@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class BookExceptionHandler {
+public class BookStoreExceptionHandler {
 
-  @ExceptionHandler(UserRegistrationException.class)
-  public ResponseEntity<ResponseDTO> handleBookException(BookException exception) {
+  @ExceptionHandler(BookStoreException.class)
+  public ResponseEntity<ResponseDTO> handleBookException(BookStoreException exception) {
     ResponseDTO responseDTO = new ResponseDTO("Exception while processing REST request",
             exception.getMessage());
     return new ResponseEntity<>(responseDTO, HttpStatus.BAD_REQUEST);

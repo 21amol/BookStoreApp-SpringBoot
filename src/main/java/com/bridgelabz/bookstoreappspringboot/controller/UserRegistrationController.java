@@ -35,10 +35,11 @@ public class UserRegistrationController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
-  @GetMapping(value = {"/get/{userId}"})
-  public ResponseEntity<ResponseDTO> getUserDataById(@PathVariable int userId) {
-    UserRegistrationData userRegistrationData = userRegistrationService.getUserDataById(userId);
-    ResponseDTO responseDTO = new ResponseDTO("Success Call for User Id!!!", userRegistrationData);
+  @GetMapping(value = {"/getId"})
+  public ResponseEntity<ResponseDTO> getUserDataById(@RequestParam String token) {
+ //   userRegistrationService.getUserDataById(token);
+    ResponseDTO responseDTO = new ResponseDTO("Success Call for User Id!!!",
+            userRegistrationService.getUserDataById(token));
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
@@ -49,10 +50,10 @@ public class UserRegistrationController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
-  @PutMapping(value = {"/update/{userId}"})
-  public ResponseEntity<ResponseDTO> updateData(@PathVariable int userId,
+  @PutMapping(value = {"/update/{token}"})
+  public ResponseEntity<ResponseDTO> updateData(@PathVariable String token,
                                                @Valid @RequestBody UserRegistrationDTO userRegistrationDTO) {
-    UserRegistrationData userRegistrationData = userRegistrationService.updateUserData(userId,
+    UserRegistrationData userRegistrationData = userRegistrationService.updateUserData(token,
             userRegistrationDTO);
     ResponseDTO responseDTO = new ResponseDTO("Data UPDATED Successfully!!!", userRegistrationData);
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
