@@ -31,7 +31,7 @@ public CartData(BookData bookData, UserRegistrationData userRegistrationData, in
   this.quantity = quantity;
 }
 
-  public void updateCartData(CartDTO cartDTO) {
+  public void updateCartData(int cartId, String token, CartDTO cartDTO ) {
     this.quantity = cartDTO.quantity;
   }
 }

@@ -24,6 +24,7 @@ public class UserRegistrationService {
   @Autowired
   EmailService emailService;
 
+  //------------------Adding a User -------------------------
   public UserRegistrationData addUserData(UserRegistrationDTO userRegistrationDTO) {
     UserRegistrationData userRegistrationData = new UserRegistrationData(userRegistrationDTO);
     userRegistrationRepo.save(userRegistrationData);
@@ -33,25 +34,31 @@ public class UserRegistrationService {
     return userRegistrationData;
   }
 
+  //--------------------------Getting full user list--------------------------
   public List<UserRegistrationData> getUserData() {
     return userRegistrationRepo.findAll();
   }
 
+
+  //------------------Getting user data by token--------------------
   public UserRegistrationData getUserDataById(String token) {
     int userId = tokenUtil.decodeToken(token);
     return userRegistrationRepo.findById(userId).orElseThrow(() -> new BookStoreException("User Id not Found!!!"));
   }
 
+  //----------------Getting user Data by Email id--------------------
   public List<UserRegistrationData> getUserDataByEmailId(String emailId) {
     return userRegistrationRepo.findByEmailId(emailId);
   }
 
+  //----------------Updating User Data-----------------------
   public UserRegistrationData updateUserData(String token, UserRegistrationDTO userRegistrationDTO) {
     UserRegistrationData userRegistrationData = this.getUserDataById(token);
     userRegistrationData.updateData(userRegistrationDTO);
     return userRegistrationRepo.save(userRegistrationData);
   }
 
+  //-----------------Login into User Account-------------------
   public Optional<UserRegistrationData> loginUser(LoginDTO loginDTO) {
     Optional<UserRegistrationData> userLogin = userRegistrationRepo.findByEmailIdAndPassword(loginDTO.emailId,
             loginDTO.password);

@@ -21,6 +21,7 @@ public class UserRegistrationController {
   @Autowired
   UserRegistrationService userRegistrationService;
 
+  //-------------------------------POST-Operation---------------------------------------
   @PostMapping(value = {"/add"})
   public ResponseEntity<ResponseDTO> addUserData(@Valid @RequestBody UserRegistrationDTO userRegistrationDTO) {
     UserRegistrationData userRegistrationData = userRegistrationService.addUserData(userRegistrationDTO);
@@ -28,6 +29,7 @@ public class UserRegistrationController {
     return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/get"})
   public ResponseEntity<ResponseDTO> getUserData() {
     List<UserRegistrationData> userDataList = userRegistrationService.getUserData();
@@ -35,14 +37,15 @@ public class UserRegistrationController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/getId"})
   public ResponseEntity<ResponseDTO> getUserDataById(@RequestParam String token) {
- //   userRegistrationService.getUserDataById(token);
-    ResponseDTO responseDTO = new ResponseDTO("Success Call for User Id!!!",
-            userRegistrationService.getUserDataById(token));
+    UserRegistrationData userRegistrationData = userRegistrationService.getUserDataById(token);
+    ResponseDTO responseDTO = new ResponseDTO("Success Call for User Id!!!", userRegistrationData);
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/email"})
   public ResponseEntity<ResponseDTO> getUserDataByEmailId(@Valid @RequestParam String emailId) {
     List<UserRegistrationData> userDataList = userRegistrationService.getUserDataByEmailId(emailId);
@@ -50,15 +53,17 @@ public class UserRegistrationController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //-----------------------PUT-Operation-----------------------------
   @PutMapping(value = {"/update/{token}"})
   public ResponseEntity<ResponseDTO> updateData(@PathVariable String token,
-                                               @Valid @RequestBody UserRegistrationDTO userRegistrationDTO) {
+                                                @Valid @RequestBody UserRegistrationDTO userRegistrationDTO) {
     UserRegistrationData userRegistrationData = userRegistrationService.updateUserData(token,
             userRegistrationDTO);
     ResponseDTO responseDTO = new ResponseDTO("Data UPDATED Successfully!!!", userRegistrationData);
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //-------------------------------POST-Operation---------------------------------------
   @PostMapping(value = {"/login"})
   public ResponseEntity<ResponseDTO> loginUser(@Valid @RequestBody LoginDTO loginDTO) {
     Optional<UserRegistrationData> login = userRegistrationService.loginUser(loginDTO);

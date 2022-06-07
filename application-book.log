@@ -1,8 +1,526 @@
-2022-2022-06 11:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10140 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:05 [WARN][HikariPool-1 housekeeper][c.z.h.p.HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h26s675ms372µs200ns).
+2022-2022-06 09:05 [WARN][HikariPool-1 housekeeper][c.z.h.p.HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h24m49s160ms808µs200ns).
+2022-2022-06 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 12960 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:25 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 09:25 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 09:25 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.562 seconds (JVM running for 9.409)
+2022-2022-06 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 2208 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:27 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 09:27 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 09:27 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.014 seconds (JVM running for 8.586)
+2022-2022-06 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 09:29 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 11068 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:29 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 09:29 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 09:29 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 09:29 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 09:29 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.939 seconds (JVM running for 8.536)
+2022-2022-06 09:29 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 09:33 [WARN][http-nio-8080-exec-2][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-2022-06 09:33 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @26114e0)] with root cause
+java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @26114e0)
+	at com.bridgelabz.bookstoreappspringboot.controller.CartController.updateCartData(CartController.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 09:34 [ERROR][http-nio-8080-exec-4][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @26114e0)] with root cause
+java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @26114e0)
+	at com.bridgelabz.bookstoreappspringboot.controller.CartController.updateCartData(CartController.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 09:41 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 1696 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:41 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 09:41 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 09:41 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 09:41 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 09:41 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.491 seconds (JVM running for 8.345)
+2022-2022-06 09:41 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 09:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 11896 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 09:50 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 09:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 09:50 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 09:50 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 09:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.831 seconds (JVM running for 8.248)
+2022-2022-06 09:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 09:51 [WARN][http-nio-8080-exec-6][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2022-2022-06 10:08 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 12120 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 10:08 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 10:08 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 10:08 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 10:08 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 10:08 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.668 seconds (JVM running for 8.426)
+2022-2022-06 10:08 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 10:09 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10276 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 10:09 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 10:09 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 10:09 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 10:09 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 10:09 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.59 seconds (JVM running for 7.723)
+2022-2022-06 10:09 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 10:09 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Book  with id 1 does not exist in database..!] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Book  with id 1 does not exist in database..!
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.lambda$getOrderID$0(OrderService.java:43)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.getOrderID(OrderService.java:43)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.getOrderById(OrderController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 10:11 [ERROR][http-nio-8080-exec-7][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Book  with id 1 does not exist in database..!] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Book  with id 1 does not exist in database..!
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.lambda$getOrderID$0(OrderService.java:43)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.getOrderID(OrderService.java:43)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.getOrderById(OrderController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 11:11 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 8800 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:11 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:11 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:11 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:11 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:11 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.716 seconds (JVM running for 9.896)
+2022-2022-06 11:11 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:12 [WARN][http-nio-8080-exec-5][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-2022-06 11:13 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.util.Optional cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.OrderData (java.util.Optional is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.OrderData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7e771317)] with root cause
+java.lang.ClassCastException: class java.util.Optional cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.OrderData (java.util.Optional is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.OrderData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7e771317)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.getOrderID(OrderService.java:45)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.cancelOrder(OrderService.java:56)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.cancelOrder(OrderController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 11:15 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 6716 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:15 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:15 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:15 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:15 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:15 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.316 seconds (JVM running for 9.037)
+2022-2022-06 11:15 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:15 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.util.Optional cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.OrderData (java.util.Optional is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.OrderData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7605c3a5)] with root cause
+java.lang.ClassCastException: class java.util.Optional cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.OrderData (java.util.Optional is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.OrderData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7605c3a5)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.cancelOrder(OrderService.java:56)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.cancelOrder(OrderController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 11:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 500 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:19 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:19 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:19 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.285 seconds (JVM running for 8.689)
+2022-2022-06 11:19 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 6852 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:20 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:20 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:20 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.763 seconds (JVM running for 8.217)
+2022-2022-06 11:20 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3204 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:23 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:23 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:23 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.493 seconds (JVM running for 9.306)
+2022-2022-06 11:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 2632 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:25 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:25 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:25 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.588 seconds (JVM running for 9.185)
+2022-2022-06 11:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:26 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 9536 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:26 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:26 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:26 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:26 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:26 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.955 seconds (JVM running for 8.379)
+2022-2022-06 11:26 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 8204 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:27 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:27 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:27 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.942 seconds (JVM running for 8.489)
+2022-2022-06 11:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 2452 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
 2022-2022-06 11:30 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
 2022-2022-06 11:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:31 [WARN][restartedMain][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'userRegistrationService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRegistrationService': Unsatisfied dependency expressed through field 'emailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailService': Unsatisfied dependency expressed through field 'javaMailSender'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2022-2022-06 11:31 [ERROR][restartedMain][o.s.b.d.LoggingFailureAnalysisReporter:40] 
+2022-2022-06 11:30 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:30 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.486 seconds (JVM running for 8.967)
+2022-2022-06 11:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:31 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 5336 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:31 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:31 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:31 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:31 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:32 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.772 seconds (JVM running for 9.394)
+2022-2022-06 11:32 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:34 [ERROR][http-nio-8080-exec-7][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7e771317)] with root cause
+java.lang.ClassCastException: class java.lang.String cannot be cast to class com.bridgelabz.bookstoreappspringboot.model.CartData (java.lang.String is in module java.base of loader 'bootstrap'; com.bridgelabz.bookstoreappspringboot.model.CartData is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @7e771317)
+	at com.bridgelabz.bookstoreappspringboot.controller.CartController.updateCartData(CartController.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-06 11:36 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 1740 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:36 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:36 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:36 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:36 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:36 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.908 seconds (JVM running for 9.513)
+2022-2022-06 11:36 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:38 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 4992 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:38 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:38 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:38 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:38 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:38 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.531 seconds (JVM running for 9.033)
+2022-2022-06 11:38 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:43 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 7664 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:43 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:43 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:43 [WARN][restartedMain][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bridgelabz.bookstoreappspringboot.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-2022-06 11:43 [ERROR][restartedMain][o.s.b.d.LoggingFailureAnalysisReporter:40] 
 
 ***************************
 APPLICATION FAILED TO START
@@ -10,7 +528,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field javaMailSender in com.bridgelabz.bookstoreappspringboot.email.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+Field cartService in com.bridgelabz.bookstoreappspringboot.controller.CartController required a bean of type 'com.bridgelabz.bookstoreappspringboot.service.CartService' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -18,378 +536,19 @@ The injection point has the following annotations:
 
 Action:
 
-Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+Consider defining a bean of type 'com.bridgelabz.bookstoreappspringboot.service.CartService' in your configuration.
 
-2022-2022-06 11:37 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10124 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:37 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:37 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:37 [WARN][restartedMain][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController': Unsatisfied dependency expressed through field 'cartService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartService': Unsatisfied dependency expressed through field 'userRegistrationService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRegistrationService': Unsatisfied dependency expressed through field 'emailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailService': Unsatisfied dependency expressed through field 'javaMailSender'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2022-2022-06 11:37 [ERROR][restartedMain][o.s.b.d.LoggingFailureAnalysisReporter:40] 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field javaMailSender in com.bridgelabz.bookstoreappspringboot.email.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
-
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3912 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:47 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:47 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:47 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.686 seconds (JVM running for 9.345)
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 2424 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:47 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:47 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:47 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.834 seconds (JVM running for 9.503)
-2022-2022-06 11:47 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 11:50 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailParseException: Could not parse mail; nested exception is javax.mail.internet.AddressException: Domain contains illegal character in string ``amol9.ag@@gmail.com''] with root cause
-javax.mail.internet.AddressException: Domain contains illegal character
-	at javax.mail.internet.InternetAddress.checkAddress(InternetAddress.java:1410)
-	at javax.mail.internet.InternetAddress.parse(InternetAddress.java:1191)
-	at javax.mail.internet.InternetAddress.parse(InternetAddress.java:728)
-	at javax.mail.internet.InternetAddress.parse(InternetAddress.java:705)
-	at org.springframework.mail.javamail.MimeMessageHelper.parseAddress(MimeMessageHelper.java:735)
-	at org.springframework.mail.javamail.MimeMessageHelper.setFrom(MimeMessageHelper.java:572)
-	at org.springframework.mail.javamail.MimeMailMessage.setFrom(MimeMailMessage.java:79)
-	at org.springframework.mail.SimpleMailMessage.copyTo(SimpleMailMessage.java:198)
-	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:320)
-	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
-	at com.bridgelabz.bookstoreappspringboot.email.EmailService.sendEmail(EmailService.java:20)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.addUserData(UserRegistrationService.java:31)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.addUserData(UserRegistrationController.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-06 11:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 8628 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:50 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:50 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:51 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:51 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 11:51 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 9.6 seconds (JVM running for 11.221)
-2022-2022-06 11:51 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 11:51 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 9212 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:51 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:51 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:52 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:52 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 11:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.188 seconds (JVM running for 8.692)
-2022-2022-06 11:52 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 11:54 [ERROR][http-nio-8080-exec-5][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256] with root cause
-java.lang.IllegalArgumentException: Illegal base64 character a
-	at java.base/java.util.Base64$Decoder.decode0(Base64.java:847)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:566)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:589)
-	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:52)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
-	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:46)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getUserDataById(UserRegistrationService.java:41)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getUserDataById(UserRegistrationController.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-06 11:55 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 7076 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:55 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:55 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:55 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:55 [WARN][restartedMain][o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userRegistrationController' method 
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserDataById(String)
-to {GET [/user/get]}: There is already 'userRegistrationController' bean method
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserData() mapped.
-2022-2022-06 11:55 [ERROR][restartedMain][o.s.b.SpringApplication:824] Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userRegistrationController' method 
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserDataById(String)
-to {GET [/user/get]}: There is already 'userRegistrationController' bean method
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserData() mapped.
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.bridgelabz.bookstoreappspringboot.BookStoreAppSpringBootApplication.main(BookStoreAppSpringBootApplication.java:13)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'userRegistrationController' method 
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserDataById(String)
-to {GET [/user/get]}: There is already 'userRegistrationController' bean method
-com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController#getUserData() mapped.
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
-	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 21 common frames omitted
-2022-2022-06 11:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 8040 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 11:56 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 11:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 11:56 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 11:56 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 11:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.234 seconds (JVM running for 8.579)
-2022-2022-06 11:56 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 11:56 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256] with root cause
-java.lang.IllegalArgumentException: Illegal base64 character a
-	at java.base/java.util.Base64$Decoder.decode0(Base64.java:847)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:566)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:589)
-	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:52)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
-	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:46)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getUserDataById(UserRegistrationService.java:41)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getUserDataById(UserRegistrationController.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-06 11:59 [ERROR][http-nio-8080-exec-4][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.SignatureVerificationException: The Token's Signature resulted invalid when verified using the Algorithm: HmacSHA256] with root cause
-java.lang.IllegalArgumentException: Illegal base64 character a
-	at java.base/java.util.Base64$Decoder.decode0(Base64.java:847)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:566)
-	at java.base/java.util.Base64$Decoder.decode(Base64.java:589)
-	at com.auth0.jwt.algorithms.HMACAlgorithm.verify(HMACAlgorithm.java:52)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:299)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:283)
-	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:46)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getUserDataById(UserRegistrationService.java:41)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getUserDataById(UserRegistrationController.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-06 12:04 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 3720 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 12:04 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 12:04 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 12:04 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 12:04 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 12:04 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.295 seconds (JVM running for 8.798)
-2022-2022-06 12:04 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-06 12:07 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 5300 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-06 12:07 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-06 12:07 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-06 12:07 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-06 12:07 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-06 12:07 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.192 seconds (JVM running for 8.701)
-2022-2022-06 12:07 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 11:44 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10752 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 11:44 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 11:44 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 11:44 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 11:44 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 11:44 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.6 seconds (JVM running for 7.91)
+2022-2022-06 11:44 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-06 12:01 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 4752 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-06 12:01 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-06 12:01 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-06 12:01 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-06 12:01 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-06 12:01 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.159 seconds (JVM running for 7.456)
+2022-2022-06 12:01 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment

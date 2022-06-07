@@ -20,6 +20,7 @@ public class BookController {
   @Autowired
   BookService bookService;
 
+  //-------------------------------POST-Operation---------------------------------------
   @PostMapping(value = {"/add"})
   public ResponseEntity<ResponseDTO> insertBook(@Valid @RequestBody BookDTO bookDTO) {
     BookData bookData = bookService.insertBook(bookDTO);
@@ -27,6 +28,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/get"})
   public ResponseEntity<ResponseDTO> getBooksData() {
     List<BookData> bookList = bookService.getAllBooks();
@@ -34,6 +36,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/get/{id}"})
   public ResponseEntity<ResponseDTO> getBookById(@PathVariable int id) {
     BookData bookData = bookService.getBookById(id);
@@ -41,6 +44,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //-------------------------DELETE-Operation----------------------------
   @DeleteMapping(value = {"/remove/{id}"})
   public ResponseEntity<ResponseDTO> deleteBookData(@PathVariable int id) {
     bookService.deleteBookData(id);
@@ -49,6 +53,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/bookname"})
   public ResponseEntity<ResponseDTO> getBooksData(@Valid @RequestParam String bookName) {
     List<BookData> bookList = bookService.getBookByName(bookName);
@@ -56,6 +61,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //-----------------------PUT-Operation-----------------------------
   @PutMapping(value = {"/update/{id}"})
   public ResponseEntity<ResponseDTO> updateData(@PathVariable int id, @Valid @RequestBody BookDTO bookDTO) {
     BookData bookData = bookService.updateBookData(id, bookDTO);
@@ -63,6 +69,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/sortAsc"})
   public ResponseEntity<ResponseDTO> sortByPriceAsc() {
     List<BookData> bookList = bookService.sortByPriceAsc();
@@ -70,6 +77,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/sortDesc"})
   public ResponseEntity<ResponseDTO> sortByPriceDesc() {
     List<BookData> bookList = bookService.sortByPriceDesc();
@@ -77,6 +85,7 @@ public class BookController {
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
 
+  //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/authorname"})
   public ResponseEntity<ResponseDTO> getBooksDataByAuthor(@Valid @RequestParam String authorName) {
     List<BookData> bookList = bookService.getBookByAuthorName(authorName);
