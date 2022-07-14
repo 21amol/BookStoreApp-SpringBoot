@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+//@CrossOrigin
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/cart")
 public class CartController {
@@ -24,8 +26,8 @@ public class CartController {
 
   //-------------------------------POST-Operation---------------------------------------
   @PostMapping(value = {"/add"})
-  public ResponseEntity<ResponseDTO> addCart(@RequestBody CartDTO cartDTO, @RequestParam String token) {
-    CartData cartData = cartService.addCart(cartDTO, token);
+  public ResponseEntity<ResponseDTO> addCart(@RequestBody CartDTO cartDTO) {
+    CartData cartData = cartService.addCart(cartDTO);
     ResponseDTO responseDTO = new ResponseDTO("Items Added to Cart Successfully!!!", cartData);
     return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
   }
@@ -63,4 +65,28 @@ public class CartController {
     ResponseDTO responseDTO = new ResponseDTO("Cart Updated Successfully!!!", cartData);
     return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
   }
+
+  @GetMapping("/cartid/{id}")
+  public ResponseEntity<ResponseDTO> updateQuantity(@PathVariable Integer id, @RequestParam Integer quantity) {
+    CartData newCart = cartService.updateCartByIds(id, quantity);
+    ResponseDTO dto = new ResponseDTO("Quantity for book record updated successfully!!!", newCart);
+    return new ResponseEntity<>(dto, HttpStatus.OK);
+  }
+
+  @GetMapping("/getCartByBookId/{bookId}")
+  public ResponseEntity<ResponseDTO> getCartRecordByBookId(@PathVariable int bookId){
+    List<CartData> newCart = cartService.getCartRecordByBookId(bookId);
+    ResponseDTO dto = new ResponseDTO("Record retrieved successfully !",newCart);
+    return new ResponseEntity<ResponseDTO>(dto,HttpStatus.OK);
+  }
+
+
+  @GetMapping("/retrieveCartByUserId/{userId}")
+  public ResponseEntity<ResponseDTO> getCartRecordByUserId(@PathVariable int userId){
+    List<CartData> newCart = cartService.getCartRecordByUserId(userId);
+    ResponseDTO dto = new ResponseDTO("Record retrieved successfully !",newCart);
+    return new ResponseEntity(dto,HttpStatus.OK);
+  }
+
+
 }

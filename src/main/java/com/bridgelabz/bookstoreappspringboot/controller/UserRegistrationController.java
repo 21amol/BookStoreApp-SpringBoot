@@ -14,6 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/user")
 public class UserRegistrationController {
@@ -48,7 +49,7 @@ public class UserRegistrationController {
   //----------------------------GET-Operation----------------------------------
   @GetMapping(value = {"/email"})
   public ResponseEntity<ResponseDTO> getUserDataByEmailId(@Valid @RequestParam String emailId) {
-    List<UserRegistrationData> userDataList = userRegistrationService.getUserDataByEmailId(emailId);
+    Optional<UserRegistrationData> userDataList = userRegistrationService.getUserDataByEmailId(emailId);
     ResponseDTO responseDTO = new ResponseDTO("Success Call for Email Id!!!", userDataList);
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
   }
@@ -76,5 +77,19 @@ public class UserRegistrationController {
       ResponseDTO dto = new ResponseDTO("Login Failed!!!", login);
       return new ResponseEntity<>(dto, HttpStatus.OK);
     }
+  }
+
+  @GetMapping("/getToken/{emailId}")
+  public ResponseEntity<ResponseDTO> getToken(@PathVariable String emailId){
+    String generatedToken=userRegistrationService.getToken(emailId);
+    ResponseDTO responseDTO=new ResponseDTO("Token for mail id sent on mail successfully",generatedToken);
+    return new ResponseEntity(responseDTO, HttpStatus.OK);
+  }
+
+  @GetMapping(value = "/recordByToken/{token}")
+  public ResponseEntity<ResponseDTO> getRecordByToken(@PathVariable String token) {
+    UserRegistrationData user = userRegistrationService.getRecordByToken(token);
+    ResponseDTO dto = new ResponseDTO("Data retrieved successfully",user);
+    return new ResponseEntity(dto,HttpStatus.OK);
   }
 }

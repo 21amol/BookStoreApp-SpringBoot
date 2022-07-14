@@ -34,6 +34,17 @@ public class BookData {
 
   }
 
+//  public BookData(int bookId, BookDTO bookDTO) {
+//    this.id = bookId;
+//    this.bookName = bookDTO.bookName;
+//    this.authorName = bookDTO.authorName;
+//    this.bookDesc = bookDTO.bookDesc;
+//    this.bookImg = bookDTO.bookImg;
+//    this.price = bookDTO.price;
+//    this.quantity = bookDTO.quantity;
+//
+//  }
+
   public void updateData(BookDTO bookDTO) {
     this.bookName = bookDTO.bookName;
     this.authorName = bookDTO.authorName;

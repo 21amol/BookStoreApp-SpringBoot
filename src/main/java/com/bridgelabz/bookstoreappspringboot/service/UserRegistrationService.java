@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+
 @Slf4j
 @Service
 public class UserRegistrationService {
@@ -25,12 +26,13 @@ public class UserRegistrationService {
   EmailService emailService;
 
   //------------------Adding a User -------------------------
+
   public UserRegistrationData addUserData(UserRegistrationDTO userRegistrationDTO) {
     UserRegistrationData userRegistrationData = new UserRegistrationData(userRegistrationDTO);
     userRegistrationRepo.save(userRegistrationData);
-    String token=tokenUtil.createToken(userRegistrationData.getUserId());
+    String token = tokenUtil.createToken(userRegistrationData.getUserId());
     emailService.sendEmail(userRegistrationData.getEmailId(), "Token",
-            "Registration SuccessFull and Generated Token is--> "+token);
+            "Registration SuccessFull and Generated Token is--> " + token);
     return userRegistrationData;
   }
 
@@ -47,7 +49,7 @@ public class UserRegistrationService {
   }
 
   //----------------Getting user Data by Email id--------------------
-  public List<UserRegistrationData> getUserDataByEmailId(String emailId) {
+  public Optional<UserRegistrationData> getUserDataByEmailId(String emailId) {
     return userRegistrationRepo.findByEmailId(emailId);
   }
 
@@ -72,4 +74,23 @@ public class UserRegistrationService {
     }
     return null;
   }
+
+  public String getToken(String emailId) {
+    Optional<UserRegistrationData> userRegistration = userRegistrationRepo.findByEmailId(emailId);
+    String token = tokenUtil.createToken(userRegistration.get().getUserId());
+    emailService.sendEmail(userRegistration.get().getEmailId(), "Welcome User:  " + userRegistration.get().getFirstName(), "Token for changing password is :" + token);
+    return token;
+  }
+
+  public UserRegistrationData getRecordByToken(String token) {
+    int id = Math.toIntExact(tokenUtil.decodeToken(token));
+    Optional<UserRegistrationData> user = userRegistrationRepo.findById(id);
+    if (user.isEmpty()) {
+      throw new BookStoreException("User Record doesn't exists");
+    } else {
+      log.info("Record called successfully for given token having id " + id);
+      return user.get();
+    }
+  }
+
 }

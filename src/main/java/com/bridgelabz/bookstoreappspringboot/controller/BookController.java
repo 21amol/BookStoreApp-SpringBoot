@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
-
+@CrossOrigin
 @RestController
 @RequestMapping("/book")
 public class BookController {
@@ -54,8 +54,8 @@ public class BookController {
   }
 
   //----------------------------GET-Operation----------------------------------
-  @GetMapping(value = {"/bookname"})
-  public ResponseEntity<ResponseDTO> getBooksData(@Valid @RequestParam String bookName) {
+  @GetMapping(value = {"/bookname/{bookName}"})
+  public ResponseEntity<ResponseDTO> getBooksData(@Valid @PathVariable String bookName) {
     List<BookData> bookList = bookService.getBookByName(bookName);
     ResponseDTO responseDTO = new ResponseDTO("Book Called Successfully!!!", bookList);
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);

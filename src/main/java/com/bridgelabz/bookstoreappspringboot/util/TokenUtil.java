@@ -18,7 +18,8 @@ public class TokenUtil {
       //to set algorithm
       Algorithm algorithm = Algorithm.HMAC256(TOKEN_SECRET);
 
-      String token = JWT.create().withClaim("user_id", id).sign(algorithm);
+      String token;
+      token = JWT.create().withClaim("user_id", id).sign(algorithm);
       return token;
     } catch (JWTCreationException exception) {
       exception.printStackTrace();

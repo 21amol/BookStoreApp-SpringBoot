@@ -4,7 +4,6 @@ import com.bridgelabz.bookstoreappspringboot.dto.BookDTO;
 import com.bridgelabz.bookstoreappspringboot.email.EmailService;
 import com.bridgelabz.bookstoreappspringboot.exception.BookStoreException;
 import com.bridgelabz.bookstoreappspringboot.model.BookData;
-import com.bridgelabz.bookstoreappspringboot.model.UserRegistrationData;
 import com.bridgelabz.bookstoreappspringboot.repository.BookRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -19,14 +19,15 @@ public class CartData {
 
   @ManyToOne
   @JoinColumn(name = "bookId")
-  private BookData bookId;
+  private BookData bookData;
 
   @OneToOne
   @JoinColumn(name = "userId")
   private UserRegistrationData userId;
 
+
 public CartData(BookData bookData, UserRegistrationData userRegistrationData, int quantity) {
-  this.bookId = bookData;
+  this.bookData = bookData;
   this.userId = userRegistrationData;
   this.quantity = quantity;
 }

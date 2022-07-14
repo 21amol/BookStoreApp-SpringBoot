@@ -12,7 +12,7 @@ import java.util.Optional;
 public interface UserRegistrationRepo extends JpaRepository<UserRegistrationData, Integer> {
 
   @Query(value = "select *from user_registration where email_id = :emailId", nativeQuery = true)
-  List<UserRegistrationData> findByEmailId(String emailId);
+  Optional<UserRegistrationData> findByEmailId(String emailId);
 
   Optional <UserRegistrationData> findByEmailIdAndPassword(String emailId, String password);
 }
