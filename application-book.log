@@ -1,18 +1,41 @@
-2022-2022-07 08:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 1656 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-07 08:06 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-07 08:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-07 08:06 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-07 08:06 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-07 08:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 13.139 seconds (JVM running for 20.089)
-2022-2022-07 08:06 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-07 08:16 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.] with root cause
-com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.
-	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:21)
-	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:36)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:282)
-	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:47)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getRecordByToken(UserRegistrationService.java:86)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getRecordByToken(UserRegistrationController.java:91)
+2022-2022-07 08:12 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 11540 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-07 08:12 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-07 08:12 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-07 08:12 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 08:12 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-07 08:12 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.471 seconds (JVM running for 11.615)
+2022-2022-07 08:12 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-07 08:15 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:15 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 08:15 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:15 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:15 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-2][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:142] Cart record deleted successfully for id 35
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:16 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:17 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:18 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:18 [ERROR][http-nio-8080-exec-10][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -26,8 +49,8 @@ com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 pa
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -63,15 +86,15 @@ com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 pa
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-07 08:16 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
-2022-2022-07 08:50 [ERROR][http-nio-8080-exec-7][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.] with root cause
-com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.
-	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:21)
-	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:36)
-	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:282)
-	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:47)
-	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getRecordByToken(UserRegistrationService.java:86)
-	at com.bridgelabz.bookstoreappspringboot.controller.UserRegistrationController.getRecordByToken(UserRegistrationController.java:91)
+2022-2022-07 08:18 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:18 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:18 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:19 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:19 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:19 [ERROR][http-nio-8080-exec-3][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,8 +108,8 @@ com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 pa
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -122,70 +145,818 @@ com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 pa
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-07 08:50 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 08:19 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:20 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:20 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:20 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 08:20 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:20 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:21 [ERROR][http-nio-8080-exec-4][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:21 [INFO][http-nio-8080-exec-5][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-9][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:22 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:23 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:23 [ERROR][http-nio-8080-exec-9][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 29
+2022-2022-07 08:23 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 29
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-9][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-7][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:24 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:25 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:25 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:25 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:25 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:25 [INFO][http-nio-8080-exec-6][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:30 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:30 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:30 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:31 [ERROR][http-nio-8080-exec-10][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-9][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:31 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:32 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:32 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:32 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 11024 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-07 08:32 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-07 08:32 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-07 08:33 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 08:33 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-07 08:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.609 seconds (JVM running for 12.108)
+2022-2022-07 08:33 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:33 [ERROR][http-nio-8080-exec-3][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:33 [ERROR][http-nio-8080-exec-9][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:33 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:34 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:34 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:34 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:34 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:34 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:34 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:35 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:35 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:35 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:35 [ERROR][http-nio-8080-exec-8][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 08:35 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:142] Cart record deleted successfully for id 44
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:36 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-9][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-5][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:37 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:38 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:38 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:38 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:38 [INFO][http-nio-8080-exec-4][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:38 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:39 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:39 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:39 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:39 [INFO][http-nio-8080-exec-1][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:40 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:40 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:40 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-7][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-5][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:42 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-2][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:43 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:44 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:44 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:45 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:45 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-5][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-9][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 08:47 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:57 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:57 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:57 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:57 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:57 [INFO][http-nio-8080-exec-8][c.b.b.s.OrderService:84] Order record inserted successfully
 2022-2022-07 08:58 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 08:58 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 08:58 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
-2022-2022-07 08:59 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 08:59 [WARN][http-nio-8080-exec-7][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
-2022-2022-07 08:59 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 08:59 [WARN][http-nio-8080-exec-2][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
-2022-2022-07 08:59 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
-2022-2022-07 09:05 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:05 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:07 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:07 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 21
-2022-2022-07 09:07 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:07 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:13 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:13 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:16 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:16 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:16 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:16 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:21 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 668 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-07 09:21 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-07 09:21 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-07 09:22 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-07 09:22 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-07 09:22 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 7.809 seconds (JVM running for 9.915)
-2022-2022-07 09:22 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-07 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10736 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-07 09:25 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-07 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-07 09:25 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-07 09:25 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-07 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 9.096 seconds (JVM running for 10.776)
-2022-2022-07 09:25 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-07 09:25 [ERROR][http-nio-8080-exec-1][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 8; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 8] with root cause
-javax.persistence.NonUniqueResultException: query did not return a unique result: 8
-	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128)
-	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1672)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159)
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
-	at jdk.proxy3/jdk.proxy3.$Proxy118.findByBookID(Unknown Source)
-	at com.bridgelabz.bookstoreappspringboot.service.CartService.getCartRecordByBookId(CartService.java:108)
-	at com.bridgelabz.bookstoreappspringboot.controller.CartController.getCartRecordByBookId(CartController.java:78)
+2022-2022-07 08:58 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:58 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 08:58 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 08:58 [INFO][http-nio-8080-exec-5][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 09:00 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:00 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:00 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 09:00 [INFO][http-nio-8080-exec-10][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 09:00 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:11 [ERROR][http-nio-8080-exec-6][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,8 +970,8 @@ javax.persistence.NonUniqueResultException: query did not return a unique result
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -236,29 +1007,224 @@ javax.persistence.NonUniqueResultException: query did not return a unique result
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2022-2022-07 09:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 7856 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-07 09:30 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-07 09:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-07 09:30 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-07 09:30 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-07 09:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 9.164 seconds (JVM running for 11.019)
-2022-2022-07 09:30 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
-2022-2022-07 09:30 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:113] Cart record called successfully for book id 2
-2022-2022-07 09:31 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:31 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:31 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:31 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-10][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:113] Cart record called successfully for book id 20
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-7][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
-2022-2022-07 09:32 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
-2022-2022-07 20:24 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 5288 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
-2022-2022-07 20:24 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-2022-07 20:24 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
-2022-2022-07 20:24 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-2022-07 20:24 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-2022-2022-07 20:24 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 9.325 seconds (JVM running for 14.56)
-2022-2022-07 20:24 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-07 09:12 [ERROR][http-nio-8080-exec-8][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 09:13 [ERROR][http-nio-8080-exec-9][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available] with root cause
+com.bridgelabz.bookstoreappspringboot.exception.BookStoreException: Requested quantity is not available
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.insertOrder(OrderService.java:87)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at jdk.internal.reflect.GeneratedMethodAccessor125.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 09:14 [WARN][http-nio-8080-exec-10][o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-2022-07 09:16 [INFO][http-nio-8080-exec-7][c.b.b.s.OrderService:84] Order record inserted successfully
+2022-2022-07 09:22 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 11764 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-07 09:22 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-07 09:22 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-07 09:23 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 09:23 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-07 09:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 8.272 seconds (JVM running for 9.873)
+2022-2022-07 09:23 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-07 09:23 [ERROR][http-nio-8080-exec-2][o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.] with root cause
+com.auth0.jwt.exceptions.JWTDecodeException: The token was expected to have 3 parts, but got 1.
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:21)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:36)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:282)
+	at com.bridgelabz.bookstoreappspringboot.util.TokenUtil.decodeToken(TokenUtil.java:47)
+	at com.bridgelabz.bookstoreappspringboot.service.UserRegistrationService.getUserDataById(UserRegistrationService.java:47)
+	at com.bridgelabz.bookstoreappspringboot.service.OrderService.placeOrder(OrderService.java:39)
+	at com.bridgelabz.bookstoreappspringboot.controller.OrderController.placeOrder(OrderController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-2022-07 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:55] Starting BookStoreAppSpringBootApplication using Java 17.0.1 on DESKTOP-6V1G0JA with PID 10076 (C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot\target\classes started by root in C:\Users\Admin\IdeaProjects\BookStoreApp-SpringBoot)
+2022-2022-07 09:27 [DEBUG][restartedMain][c.b.b.BookStoreAppSpringBootApplication:56] Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-2022-07 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:640] The following 1 profile is active: "dev"
+2022-2022-07 09:27 [WARN][restartedMain][o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-2022-07 09:27 [WARN][restartedMain][o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:103] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-2022-07 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:61] Started BookStoreAppSpringBootApplication in 6.208 seconds (JVM running for 7.432)
+2022-2022-07 09:27 [INFO][restartedMain][c.b.b.BookStoreAppSpringBootApplication:14] Book Store Application Started in dev Environment
+2022-2022-07 09:28 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:28 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 09:28 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:29 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:29 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 09:29 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 09:29 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:07 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:07 [INFO][http-nio-8080-exec-9][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:45 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:45 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:45 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 10:45 [INFO][http-nio-8080-exec-2][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:45 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:46 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:52 [INFO][http-nio-8080-exec-5][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:52 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:52 [INFO][http-nio-8080-exec-6][c.b.b.s.UserRegistrationService:69] Login Successfully!!!
+2022-2022-07 10:52 [INFO][http-nio-8080-exec-9][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:52 [INFO][http-nio-8080-exec-1][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-4][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-1][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:53 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:54 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:54 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-3][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-4][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-8][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:57 [INFO][http-nio-8080-exec-6][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-2][c.b.b.s.CartService:142] Cart record deleted successfully for id 77
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-7][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-3][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-5][c.b.b.s.CartService:142] Cart record deleted successfully for id 60
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-10][c.b.b.s.UserRegistrationService:91] Record called successfully for given token having id 27
+2022-2022-07 10:58 [INFO][http-nio-8080-exec-8][c.b.b.s.CartService:126] Cart record retrieved successfully for book id 27

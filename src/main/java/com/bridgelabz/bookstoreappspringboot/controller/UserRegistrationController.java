@@ -86,7 +86,7 @@ public class UserRegistrationController {
     return new ResponseEntity(responseDTO, HttpStatus.OK);
   }
 
-  @GetMapping(value = "/recordByToken/{token}")
+  @GetMapping(value = "/getrecordByToken/{token}")
   public ResponseEntity<ResponseDTO> getRecordByToken(@PathVariable String token) {
     UserRegistrationData user = userRegistrationService.getRecordByToken(token);
     ResponseDTO dto = new ResponseDTO("Data retrieved successfully",user);

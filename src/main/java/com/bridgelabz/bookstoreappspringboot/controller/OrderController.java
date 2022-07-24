@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/order")
 public class OrderController {
@@ -21,8 +22,8 @@ public class OrderController {
 
   //-------------------------------POST-Operation---------------------------------------
   @PostMapping(value = {"/add"})
-  public ResponseEntity<ResponseDTO> placeOrder(@RequestBody OrderDTO orderDTO, @RequestParam String token) {
-    OrderData orderData = orderService.placeOrder(orderDTO, token);
+  public ResponseEntity<ResponseDTO> placeOrder(@RequestBody OrderDTO orderDTO) {
+    OrderData orderData = orderService.placeOrder(orderDTO);
     ResponseDTO responseDTO = new ResponseDTO("Order Placed Successfully!!!", orderData);
     return new ResponseEntity<>(responseDTO, HttpStatus.CREATED);
   }

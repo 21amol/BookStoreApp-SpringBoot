@@ -39,4 +39,7 @@ public class OrderData {
     this.totalPrice = totalPrice;
     this.cancel = isCancel();
   }
+
+  public OrderData(int price, int totalQuantity, String address, BookData bookData, UserRegistrationData userRegistrationData, boolean cancel) {
+  }
 }

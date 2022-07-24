@@ -16,6 +16,7 @@ public class OrderDTO {
   public int totalQuantity;
  // public int totalPrice;
   public String address;
+  public boolean cancel;
  // public LocalDate date;
 
 }

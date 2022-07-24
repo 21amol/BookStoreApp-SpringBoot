@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-//@CrossOrigin
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/cart")
 public class CartController {
@@ -50,8 +50,8 @@ public class CartController {
 
   //-------------------------DELETE-Operation----------------------------
   @DeleteMapping(value = {"/remove/{cartId}"})
-  public ResponseEntity<ResponseDTO> deleteCartData(@PathVariable int cartId, @RequestParam String token) {
-    cartService.deleteCartData(cartId, token);
+  public ResponseEntity<ResponseDTO> deleteCartData(@PathVariable int cartId) {
+    cartService.deleteCartRecord(cartId);
     ResponseDTO responseDTO = new ResponseDTO("Data DELETED Successfully!!!",
             "Cart with token and ID: " + cartId + " --> DELETED!!!");
     return new ResponseEntity<>(responseDTO, HttpStatus.OK);
@@ -85,8 +85,25 @@ public class CartController {
   public ResponseEntity<ResponseDTO> getCartRecordByUserId(@PathVariable int userId){
     List<CartData> newCart = cartService.getCartRecordByUserId(userId);
     ResponseDTO dto = new ResponseDTO("Record retrieved successfully !",newCart);
-    return new ResponseEntity(dto,HttpStatus.OK);
+    return new ResponseEntity<>(dto,HttpStatus.OK);
   }
+
+  @GetMapping("/decreaseQuantity/{id}")
+  public ResponseEntity<ResponseDTO> decreaseQuantity(@PathVariable int id){
+    CartData newCart = cartService.decreaseQuantity(id);
+    ResponseDTO dto = new ResponseDTO("Quantity for book record updated successfully !",newCart);
+    return new ResponseEntity<>(dto,HttpStatus.OK);
+  }
+
+
+
+//
+//  @GetMapping("/increaseQuantity/{id}")
+//  public ResponseEntity<ResponseDTO> increaseQuantity(@PathVariable int id){
+//    CartData newCart = cartService.increaseQuantity(id);
+//    ResponseDTO dto = new ResponseDTO("Quantity for book record updated successfully !",newCart);
+//    return new ResponseEntity<>(dto,HttpStatus.OK);
+//  }
 
 
 }

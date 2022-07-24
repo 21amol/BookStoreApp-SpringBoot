@@ -60,16 +60,16 @@ public class CartService {
   }
 
   //----------------Deleting a Cart---------------------------------
-  public Object deleteCartData(int cartId, String token) {
-    UserRegistrationData userRegistrationData = userRegistrationService.getUserDataById(token);
-    Optional<CartData> cartData = cartRepo.findById(cartId);
-    if (userRegistrationData != null && cartData.isPresent()) {
-      cartRepo.delete(cartData.get());
-      return "Cart Data with id " + cartId + " ---> DELETED!!!";
-    } else {
-      throw (new BookStoreException("Cart Id not Found!!!"));
-    }
-  }
+//  public Object deleteCartData(int cartId, String token) {
+//    UserRegistrationData userRegistrationData = userRegistrationService.getUserDataById(token);
+//    Optional<CartData> cartData = cartRepo.findById(cartId);
+//    if (userRegistrationData != null && cartData.isPresent()) {
+//      cartRepo.delete(cartData.get());
+//      return "Cart Data with id " + cartId + " ---> DELETED!!!";
+//    } else {
+//      throw (new BookStoreException("Cart Id not Found!!!"));
+//    }
+//  }
 
   //-----------------------Updating the cart details--------------------
   public Optional<CartData> updateCartData(int cartId, String token, CartDTO cartDTO) {
@@ -128,5 +128,67 @@ public class CartService {
     //}
   }
 
+
+  public CartData deleteCartRecord(int cartId) {
+    Optional<CartData> cart = cartRepo.findById(cartId);
+    Optional<BookData>  book = bookRepo.findById(cart.get().getBookData().getId());
+    if(cart.isEmpty()) {
+      throw new BookStoreException("Cart Record doesn't exists");
+    }
+    else {
+      book.get().setQuantity(book.get().getQuantity() + cart.get().getQuantity());
+      bookRepo.save(book.get());
+      cartRepo.deleteById(cartId);
+      log.info("Cart record deleted successfully for id "+cartId);
+      return cart.get();
+    }
+  }
+
+
+
+  public CartData decreaseQuantity(int id) {
+    Optional<CartData> cart = cartRepo.findById(id);
+    Optional<BookData>  book = bookRepo.findById(cart.get().getBookData().getId());
+    if(cart.isEmpty()) {
+      throw new BookStoreException("Cart Record doesn't exists");
+    }
+    else {
+      if(cart.get().getQuantity() < book.get().getQuantity()) {
+        cart.get().setQuantity(cart.get().getQuantity()-1);
+        cartRepo.save(cart.get());
+        log.info("Quantity in cart record updated successfully");
+        book.get().setQuantity(book.get().getQuantity() - ((cart.get().getQuantity()-1) - cart.get().getQuantity()));
+        bookRepo.save(book.get());
+        return cart.get();
+      }
+      else {
+        throw new BookStoreException("Requested quantity is not available");
+      }
+    }
+  }
+
+
+//  public CartData increaseQuantity(int id) {
+//    Optional<CartData> cart = cartRepo.findById(id);
+//    Optional<BookData>  book = bookRepo.findById(cart.get().getBookData().getId());
+//    if(cart.isEmpty()) {
+//      throw new BookStoreException("Cart Record doesn't exists");
+//    }
+//    else {
+//      if(cart.get().getQuantity() < book.get().getQuantity()) {
+//        cart.get().setQuantity(cart.get().getQuantity()+1);
+//        cartRepo.save(cart.get());
+//        log.info("Quantity in cart record updated successfully");
+//        book.get().setQuantity(book.get().getQuantity() - ((cart.get().getQuantity()+1) - cart.get().getQuantity()));
+//        bookRepo.save(book.get());
+//        return cart.get();
+//      }
+//      else {
+//        throw new BookStoreException("Requested quantity is not available");
+//      }
+//    }
+//  }
+//
+//
 
 }
